@@ -1,3 +1,4 @@
+#TODO: Should this go in another gem, in the app, etc....
 module Cancellation
    # A simple waitable one-time event.
   # TODO: does this exist in a library?

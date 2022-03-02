@@ -1,3 +1,4 @@
+#TODO: Should this go in another gem, in the app, etc....
 require_relative 'event'
 
 module Cancellation
