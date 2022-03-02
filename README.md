@@ -1,2 +1,2 @@
 # cancellation
-Prototype for ruby cancellation
+Prototype gem for ruby cancellation
