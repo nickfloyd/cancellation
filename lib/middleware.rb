@@ -1,7 +1,7 @@
 require_relative 'event'
 
 module Cancellation
-  class CancelMiddleware
+  class Middleware
     def initialize(app)
       @app = app
     end
