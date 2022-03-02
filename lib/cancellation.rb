@@ -1,4 +1,4 @@
-class Cancellation
+module Cancellation
   class << self
     def hi
       puts "Hello world!"
