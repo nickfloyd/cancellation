@@ -10,7 +10,7 @@ class Cancellation
   #
   # Use this around any potentially slow operation that
   # supports asynchronous cancellation.
-  def with_cancel(abort, &block)
+  def self.with_cancel(abort, &block)
     mu = Mutex.new # TODO: does Ruby have an AtomicBoolean?
     done = false
 
