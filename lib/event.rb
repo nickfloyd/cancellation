@@ -1,6 +1,7 @@
 module Cancellation
    # A simple waitable one-time event.
   # TODO: does this exist in a library?
+  # TODO: Privatize the event
   class Event
     def initialize
       @mu = Mutex.new
